@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+html {
+  height: 100vh;
+}
+
+body {
+  height: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.close {
+  background: transparent;
+  border: none;
+  width: 20px;
+}
+
+.modal-body {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  justify-content: flex-end;
+}
+
+.news {
+  flex-wrap: wrap;
+  display: flex;
+  height: 100%;
+  gap: 50px;
+  padding-top: 50px;
+}
+.news__btn {
+  background: transparent;
+  padding: 10px;
+  border: 3px solid rgba(96, 165, 119, 0.7098039216);
+  border-radius: 10px;
+}
+.news__btn:not(:last-child) {
+  margin-right: 15px;
+}
+.news__header {
+  flex: 0 0 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.news__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1 1 25%;
+  text-align: start;
+  gap: 15px;
+  height: 300px;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 27px #dfdfdf;
+  background: #f9f9f9;
+}
+.news__title {
+  font-size: 28px;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+.news__item-info {
+  flex: 1 1 auto;
+}
+.news__img {
+  height: 100%;
+}
+.news__img img {
+  height: 100%;
+}
+
+form {
+  flex: 0 0 100%;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  justify-content: space-between;
+}
+form input {
+  flex: 0 1 45%;
+  padding: 15px;
+  border: 2px solid rgba(0, 0, 0, 0.431372549);
+  border-radius: 15px;
+}
+form button {
+  flex: 0 0 auto;
+  padding: 20px;
+  margin-left: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
